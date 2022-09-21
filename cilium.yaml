@@ -52,7 +52,7 @@ provision:
     rm cilium-linux-${CLI_ARCH}.tar.gz{,.sha256sum}
     cilium install
 
-    curl -s "https://gist.githubusercontent.com/philpearl/b7362c01bb5d2344a7862db7946bb5f7/raw/18960d890abb7c4c0177ee780f14e3437183219a/ctfapp.yaml" -o ctfapp.yaml
+    curl -s "https://gist.githubusercontent.com/lizrice/107e492b82f386da8883e9d1a385c0b2/raw/b6269ab2b3a2a6351f72cf20f529be0695cf04b0/ctfapp.yaml" -o ctfapp.yaml
     kubectl create -f ctfapp.yaml
 
 probes:
