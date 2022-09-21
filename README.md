@@ -8,9 +8,9 @@ Start by cloning this repo.
 
 We have provided config for running in Lima-VM or Vagrant. 
 
-* On Mac, you can set up this challenge using Lima-VM by running `limactl start cilium.yaml`
+* On Mac, you can set up this challenge using Lima-VM by running `limactl start cilium.yaml`. Once this completes, open a shell into the VM with `limactl shell cilium`,
 
-* If you're a Vagrant user, we've supplied a Vagrantfile for you as well. Run `vagrant up`. 
+* If you're a Vagrant user, we've supplied a Vagrantfile for you as well. Run `vagrant up`. Once this is finished, run `vagrant ssh` to open a shell into the VM. 
 
 If you don't want to use Lima or Vagrant, set up a Kubernetes or K3s cluster that uses Cilium as its CNI, and run `kubectl apply -f ctfapp.yaml`. 
 
@@ -18,7 +18,7 @@ Note: this challenge is unlikely to work on LinuxKit so running in Docker, or wi
 
 # The challenge
 
-Once the VM is up and running you should find it's running a Kubernetes pod.
+Once the VM is up and running, SSH into it and run `kubectl get pods`. You should find one pod running (in the default namespace).
 The application running in that pod will tell you what you need to do.
 
 Submit your answers at https://isogo.to/summit-2022-ctf
