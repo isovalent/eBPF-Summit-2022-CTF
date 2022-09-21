@@ -18,7 +18,6 @@ Note: this challenge is unlikely to work on LinuxKit so running in Docker, or wi
 
 # The challenge
 
-Once the VM is up and running, SSH into it and run `kubectl get pods`. You should find one pod running (in the default namespace).
-The application running in that pod will tell you what you need to do.
+Once the VM is up and running, SSH into it and run `kubectl get pods`. You should find one pod running (in the default namespace). It might take a couple of minutes to get to ready state. Once it's up and running, the application executing in that pod will tell you what you need to do.
 
 Submit your answers at https://isogo.to/summit-2022-ctf
