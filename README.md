@@ -20,3 +20,5 @@ Note: this challenge is unlikely to work on LinuxKit so running in Docker, or wi
 
 Once the VM is up and running you should find it's running a Kubernetes pod.
 The application running in that pod will tell you what you need to do.
+
+Submit your answers at https://isogo.to/summit-2022-ctf
