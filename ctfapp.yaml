@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ctfapp
+  labels:
+    app: ctfapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ctfapp
+  template:
+    metadata:
+      labels:
+        app: ctfapp
+    spec:
+      containers:
+      - name: ctfapp
+        image: lizrice/ctfapp:1
+        imagePullPolicy: Always
+      initContainers:
+      - name: ctfinit
+        image: lizrice/ctfinit:1
+        imagePullPolicy: Always
+        securityContext:
+          privileged: true
