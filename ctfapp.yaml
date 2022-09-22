@@ -16,11 +16,11 @@ spec:
     spec:
       containers:
       - name: ctfapp
-        image: lizrice/ctfapp:1
+        image: ghcr.io/lizrice/ctfapp:1
         imagePullPolicy: Always
       initContainers:
       - name: ctfinit
-        image: lizrice/ctfinit:1
+        image: ghcr.io/lizrice/ctfinit:1
         imagePullPolicy: Always
         securityContext:
           privileged: true

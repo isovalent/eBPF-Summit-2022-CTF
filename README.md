@@ -1,6 +1,4 @@
 **TODO**
-* Use quay.io for the images so we don't hit any Docker Hub rate limits
-  * This means updating the ctfapp.yaml and the gists referred to in cilium.yaml and Vagrantfile
 * Make this repo public when we are ready to go live
 
 # Capture The Flag Challenge for eBPF Summit 2022
