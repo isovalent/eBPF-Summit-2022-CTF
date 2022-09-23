@@ -77,7 +77,7 @@ Vagrant.configure("2") do |config|
     rm cilium-linux-${CLI_ARCH}.tar.gz{,.sha256sum}
     cilium install
 
-    curl -s "https://gist.githubusercontent.com/lizrice/107e492b82f386da8883e9d1a385c0b2/raw/07eb83fc30eafa6db82989221e34c8bf48f969f2/ctfapp.yaml" -o ctfapp.yaml
+    curl -s "https://gist.githubusercontent.com/lizrice/107e492b82f386da8883e9d1a385c0b2/raw/4b641432b3905ba76b30ea95f349962ad9bb983b/ctfapp.yaml" -o ctfapp.yaml
     kubectl create -f ctfapp.yaml
 
     apt-get install -y linux-tools-$(uname -r)

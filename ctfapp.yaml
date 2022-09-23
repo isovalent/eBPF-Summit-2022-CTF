@@ -17,10 +17,8 @@ spec:
       containers:
       - name: ctfapp
         image: ghcr.io/lizrice/ctfapp:1
-        imagePullPolicy: Always
       initContainers:
       - name: ctfinit
         image: ghcr.io/lizrice/ctfinit:1
-        imagePullPolicy: Always
         securityContext:
           privileged: true
