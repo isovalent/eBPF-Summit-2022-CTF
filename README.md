@@ -11,13 +11,11 @@ a Vagrantfile. Note: this challenge is unlikely to work on LinuxKit so running
 in Docker, or with kind on Mac/Windows, is not recommended.  
 ## Deploying the challenges
 
-Start by cloning this repo.
-
 * On Mac, you can set up the challenges using Lima-VM by running `limactl start
-  cilium.yaml`. Once this completes, open a shell into the VM with `limactl
+  cilium.yaml` with the file provided in this repo. Once this completes, open a shell into the VM with `limactl
   shell cilium`.
 
-* If you're a Vagrant user, we've supplied a Vagrantfile for you as well. Run
+* If you're a Vagrant user, we've supplied a Vagrantfile for you as well. Download that file and run
   `vagrant up`. Once this is finished, run `vagrant ssh` to open a shell into
   the VM.
 
@@ -34,7 +32,7 @@ Challenge 1 is a quiz. Tune in to the CTF #1 session on Wednesday 28 September t
 
 You won't need Kubernetes knowledge for this challenge.
 
-Once the VM is up and running, SSH into it.
+Set up the VM as described about. Once it's up and running, SSH into it.
 
 Like a treasure hunt, in this challenge a **map** will show you the way.
 
@@ -42,10 +40,10 @@ Submit your answers or get hints at https://isogo.to/summit-2022-ctf-2
 
 ## Challenge 3
 
- Once the VM is up and running, SSH into it and run `kubectl get pods`. You
- should find one pod running in the default namespace. It might take a couple of
- minutes to get to ready state.
+You can use the same VM for this challenge. SSH into it and run `kubectl get pods`. You
+should find one pod running in the default namespace. It might take a couple of
+minutes to get to ready state if you've only just deployed it.
  
- Once it's up and running, the application executing in that pod will tell you what you need to do.
+Once it's up and running, the application executing in that pod will tell you what you need to do.
 
 Submit your answers or get hints at https://isogo.to/summit-2022-ctf-3 
