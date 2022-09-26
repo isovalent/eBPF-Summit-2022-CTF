@@ -30,17 +30,15 @@ Challenge 1 is a quiz. Tune in to the CTF #1 session on Wednesday 28 September t
 
 ## Challenge 2
 
-You won't need Kubernetes knowledge for this challenge.
+You won't need Kubernetes knowledge for this challenge. Like a treasure hunt, a **map** will show you the way.
 
-Set up the VM as described about. Once it's up and running, SSH into it.
+Set up the VM as described above. Once it's up and running, open a shell / SSH into it.
 
-Like a treasure hunt, in this challenge a **map** will show you the way.
-
-Submit your answers or get hints at https://isogo.to/summit-2022-ctf-2 
+Follow the instructions at https://isogo.to/summit-2022-ctf-2. 
 
 ## Challenge 3
 
-You can use the same VM for this challenge. SSH into it and run `kubectl get pods`. You
+You can use the same VM for this challenge. Open a shell / SSH into it and run `kubectl get pods`. You
 should find one pod running in the default namespace. It might take a couple of
 minutes to get to ready state if you've only just deployed it.
  
