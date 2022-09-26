@@ -20,7 +20,7 @@ in Docker, or with kind on Mac/Windows, is not recommended.
   the VM.
 
 If you don't want to use Lima or Vagrant, set up a Kubernetes or K3s cluster
-that uses Cilium as its CNI, and apply the config YAML from [here](https://gist.githubusercontent.com/lizrice/107e492b82f386da8883e9d1a385c0b2/raw/daa94d6452dd0d2659fd6d508116478b1f64f034/ctfapp.yaml). 
+that uses Cilium as its CNI, and apply the config YAML from [here](https://gist.githubusercontent.com/lizrice/107e492b82f386da8883e9d1a385c0b2/raw/ctfapp.yaml). 
 
 # The challenges
 
