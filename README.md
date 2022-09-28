@@ -1,6 +1,3 @@
-**TODO**
-* Make this repo public when we are ready to go live
-
 # Capture The Flag Challenges for eBPF Summit 2022
 
 Challenge 1 is a quiz. This repo hold the instructions for setting up for challenges 2 and 3. 
