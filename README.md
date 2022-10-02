@@ -23,7 +23,7 @@ that uses Cilium as its CNI, and apply the config YAML from [here](https://gist.
 
 ## Challenge 1 
 
-Challenge 1 is a quiz. Tune in to the CTF #1 session on Wednesday 28 September to take part!
+Challenge 1 was a quiz that we played during day 1 of eBPF Summit 
 
 ## Challenge 2
 
@@ -33,6 +33,10 @@ Set up the VM as described above. Once it's up and running, open a shell / SSH i
 
 Follow the instructions at https://isogo.to/summit-2022-ctf-2. 
 
+> **Note**
+>
+> If you want to see the solution, watch the live solving session from [eBPF Summit 2022 Day 2](https://youtu.be/a3AwA1VdohU?t=9240)
+
 ## Challenge 3
 
 You can use the same VM for this challenge. Open a shell / SSH into it and run `kubectl get pods`. You
@@ -41,4 +45,8 @@ minutes to get to ready state if you've only just deployed it.
  
 Once it's up and running, the application executing in that pod will tell you what you need to do.
 
-Submit your answers or get hints at https://isogo.to/summit-2022-ctf-3 
+Check your answer or get hints at https://isogo.to/summit-2022-ctf-3 
+
+> **Note**
+>
+> If you want to see the solution, check out [episode 64](https://youtu.be/CBUIy0FzxFY) of [eCHO livestream](https://github.com/isovalent/eCHO)
